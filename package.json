@@ -5,6 +5,7 @@
   "description": "Reports locations with a high rate of theft and sends danger alerts",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -13,7 +14,8 @@
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
-    "mysql2": "^3.10.2"
+    "mysql2": "^3.10.2",
+    "nodemon": "^3.1.4"
   },
   "devDependencies": {
     "prisma": "^5.16.1"
